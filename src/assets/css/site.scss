@@ -1,0 +1,119 @@
+// @import './function';
+header+p+div {
+    margin-top: 1.6rem;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+body *{
+    line-height : 1;
+}
+body {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "WenQuanYi Micro Hei", sans-serif;
+    background-color:#f7f7f7 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "WenQuanYi Micro Hei", sans-serif
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+input,
+select,
+textarea {
+    color: #333;
+}
+
+button {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: .32rem;
+    color: #333;
+}
+
+a,
+a:visited {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #428bca;
+    text-decoration: none;
+}
+.colorBlue {
+    color: #44AEF2 !important;
+}
+
+.colorOrange {
+    color: #F76220 !important;
+}
+.colorGrey {
+    color: #333 !important;
+}
+.colorRed {
+    color: #FA5353 !important;
+}
+.colorGreen {
+    color: #5AB632 !important;
+}
+.colorYellow{
+    color:#FFA801;
+}
+.colorLightGrey{
+    color:#D4D4D4;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    /* WebKit*/
+    color: #666;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #666;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #666;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #666;
+}
+

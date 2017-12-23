@@ -1,0 +1,54 @@
+{
+    "code": "SUCCESS",
+    "msg": "成功",
+    "objects": {
+        "shouldFee": {
+            "shouldFeeArray": [{
+                    "feeCount": 5000,
+                    "feeName": "运费"
+                },
+                {
+                    "feeCount": 500,
+                    "feeName": "预付款"
+                },
+                {
+                    "feeCount": 0,
+                    "feeName": "过磅费"
+                },
+                {
+                    "feeCount": 0,
+                    "feeName": "服务费"
+                },
+                {
+                    "feeCount": 0,
+                    "feeName": "平台补贴"
+                }
+            ],
+            "allShouldFee": 4500
+        },
+        "verifyFee": {
+            "verifyFeeArray": [{
+                    "feeCount": 5000,
+                    "feeName": "运费"
+                },
+                {
+                    "feeCount": 500,
+                    "feeName": "预付款"
+                },
+                {
+                    "feeCount": 150,
+                    "feeName": "过磅费"
+                },
+                {
+                    "feeCount": 0,
+                    "feeName": "服务费"
+                },
+                {
+                    "feeCount": 0,
+                    "feeName": "平台补贴"
+                }
+            ],
+            "allVerifyFee": 4650
+        }
+    }
+}

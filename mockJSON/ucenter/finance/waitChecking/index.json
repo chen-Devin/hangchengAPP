@@ -1,0 +1,49 @@
+{
+    "code": "SUCCESS",
+    "msg": "成功",
+    "objects": {
+        "monthBillArray": [{
+            "ordersType": 1,
+            "transportCompany": "二是563465",
+            "billType": 2,
+            "payType": 30,
+            "linkMobile": null,
+            "billMonth": 1509465600000,
+            "orderCount": 1,
+            "arkCount": 1,
+            "sumCost": 6556.9,
+            "handledCost": null,
+            "receivedCost": 4,
+            "receivedId": 23,
+            "handleId": null,
+            "needVerify": true,
+            "createDate": 1509943683000,
+            "regBodyId": 75373,
+            "verifyStatus": 2
+        }],
+        "waybillArray": [{
+            "ordersType": 1,
+            "transportCompany": "胖子货运",
+            "billType": 1,
+            "payType": 0,
+            "finalDate": 1512441320000,
+            "transportMoney": 0,
+            "soNumber": "SOID000001",
+            "arkNo": "",
+            "driverName": "原梦清",
+            "heavyAddress": "",
+            "waybillAddress": null,
+            "emptyAddress": "YICT",
+            "arkType": "20RF",
+            "weighingWeight": null,
+            "totalCost": 0,
+            "waybillId": 68295,
+            "linkMobile": "18518303942",
+            "needVerify": true,
+            "prepaidFreight": 0,
+            "freight": 0,
+            "driverId": 39999,
+            "driverIdStr": "39999"
+        }]
+    }
+}

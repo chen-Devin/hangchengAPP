@@ -1,0 +1,151 @@
+.mint-cell{
+    min-height: 1.2rem;
+    line-height: 1.2rem;
+    padding-left: .2rem;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    .mint-cell-value.is-link{
+        font-size: .4rem; 
+        margin-right: .7rem;
+    }
+    .mint-cell-text{
+        font-size: .5rem;
+    }
+    .mint-cell-allow-right::after{
+        width:.2rem;
+        height:.2rem;
+    }
+}
+
+//业务视图的框
+.mui-content{
+    background-color: #f7f7f7;
+}
+.mui-card{
+    border-radius:0.1rem;
+    padding: 0 .15rem;
+    margin: 0 .2rem;
+    box-shadow: none;
+    border: 1px solid #d2d2d2;
+    .mui-card-header{
+        min-height: .7rem;
+        padding:0.1rem 0.15rem;
+        h4{
+            font-size: .4rem;
+            color: #f15b39;
+            font-weight: 500;
+        }
+        p{
+            font-size: .4rem;
+            margin-bottom:0;
+            color: #ffa801;
+        };
+        &:after{
+            height: 1px;
+            background-color: rgb(190, 190, 190)
+        }
+    }
+    .mui-card-content{
+        height: 1.8rem;
+        padding-top: .35rem;
+        box-sizing:border-box;
+        .mui-media-body{
+            display: inline-block;
+            font-size: .4rem;
+            padding-top: .15rem;
+            padding-left: .2rem;
+            p{
+                margin-bottom: .2rem;
+                font-size: .32rem;
+            }
+        }
+    }
+    .mui-card-footer{
+        height: 1.35rem;
+        justify-content:flex-end;
+        .mui-btn{
+            font-size: .35rem;
+            width: 2rem;
+            height: .75rem;
+            border-radius: .1rem;
+            padding:0 0;
+            line-height: 0.75rem;
+            margin-left: .3rem;
+        }
+        &:before{
+            height: 1px;
+            background-color: rgb(190, 190, 190)
+        }     
+    }
+}
+.mui-radio input[type='radio']:before,
+.mui-checkbox input[type='checkbox']:before {
+    font-family: Muiicons;
+    font-size: .32rem;
+    font-weight: normal;
+    line-height: .44rem;
+    text-decoration: none;
+    color: #aaa;
+    border-radius: 0;
+    background: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+//四个按钮颜色
+.confirm-btn {
+    margin: .6rem .25rem;
+    display: flex;
+    justify-content:flex-end;
+    .mui-btn {
+        width: 2rem;
+        height: 0.76rem;
+        line-height: .34rem;
+        margin-right: .3rem;
+        border-radius: .1rem;
+        font-size: .32rem;
+        border: none;        color: #fff;}   
+    .mui-btn-primary {
+        background-color: #27A2F0 !important;
+    }
+
+    .mui-btn-success {
+        background-color: #5AB632 !important;
+    }
+
+    .mui-btn-danger {
+        background-color: #FA5353 !important;
+    }
+
+    .mui-btn-warning {
+        background-color: #FD5E2F !important;
+    }
+}
+
+.mui-btn-gray{
+    background-color:#F2F3F4 !important;
+}
+.mui-btn-blue{
+    background-color: #27A2F0 !important;
+}
+.roundBlue50{
+    display: inline-block;
+    width:.5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #27A2F0;
+    text-align: center;
+    line-height: .5rem;
+    color:#fff;
+    font-size: .32rem;
+}
+.roundRed50 {
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #F5414F;
+    text-align: center;
+    line-height: .5rem;
+    color:#fff;
+    font-size: .32rem;
+
+}

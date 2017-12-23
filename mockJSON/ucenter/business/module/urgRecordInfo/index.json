@@ -1,0 +1,13 @@
+{
+    "code": "SUCCESS",
+    "msg": "成功",
+    "objects": {
+        "id": 37,
+        "creator": "terryZhong",
+        "createDate": 1510973583000,
+        "receivedBillsId": 1,
+        "described": null,
+        "count": 29,
+        "handlerCost": 396999.9
+    }
+}

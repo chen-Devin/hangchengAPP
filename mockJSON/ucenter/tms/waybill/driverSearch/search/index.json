@@ -1,0 +1,82 @@
+{
+    "code": "SUCCESS",
+    "msg": "成功",
+    "objects": {
+      "wait": [
+        {
+          "id": 164211,
+          "transportCompany": "胖子货运",
+          "status": "401",
+          "sendPrice": "0.00",
+          "jobNo": "PAY1711228115951",
+          "soNumber": "SOID000001",
+          "arkNo": null,
+          "carNo": null,
+          "driverName": "岳鹏",
+          "pickUpCode": null,
+          "returnCode": null,
+          "arkType": "20RF",
+          "copeCashFlag": "1",
+          "submitJobTime": null,
+          "rearkDate": null,
+          "waybillAddress": "顺丰",
+          "remark": "",
+          "addressCount": "2",
+          "marginarkId": null,
+          "sendcarMobile": null,
+          "ieflag": "E",
+          "goodsWeight": null
+        }
+      ],
+      "runing": [
+        {
+          "id": 188066,
+          "transportCompany": "胖子货运",
+          "status": "430",
+          "sendPrice": "0.00",
+          "jobNo": "PAY1711228115951",
+          "soNumber": "SOID000001",
+          "arkNo": "",
+          "carNo": "",
+          "driverName": "岳鹏",
+          "pickUpCode": "",
+          "returnCode": "",
+          "arkType": "20RF",
+          "copeCashFlag": "1",
+          "submitJobTime": 1514367473000,
+          "rearkDate": 1511834428000,
+          "waybillAddress": "圆通",
+          "remark": "",
+          "addressCount": "1",
+          "marginarkId": null,
+          "sendcarMobile": "",
+          "ieflag": "E",
+          "goodsWeight": -1000000000
+        },
+        {
+          "id": 188067,
+          "transportCompany": "矮子货运",
+          "status": "430",
+          "sendPrice": "0.00",
+          "jobNo": "PAY1711228115951",
+          "soNumber": "SOID000001",
+          "arkNo": "",
+          "carNo": "",
+          "driverName": "岳鹏",
+          "pickUpCode": "",
+          "returnCode": "",
+          "arkType": "20RF",
+          "copeCashFlag": "1",
+          "submitJobTime": 1514367473000,
+          "rearkDate": 1511834428000,
+          "waybillAddress": "圆通",
+          "remark": "",
+          "addressCount": "1",
+          "marginarkId": null,
+          "sendcarMobile": "",
+          "ieflag": "E",
+          "goodsWeight": -1000000000
+        }
+      ]
+    }
+  }
